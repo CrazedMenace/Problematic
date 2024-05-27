@@ -1,0 +1,31 @@
+/* Custom styles */
+body {
+    background: linear-gradient(45deg, #FF5733, #FF8C00, #FFD700, #FF5733);
+}
+
+.rounded-search {
+    border-radius: 50px;
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.card-img-top {
+    height: 150px;
+    object-fit: cover;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 5px 0;
+}
+
+footer a {
+    text-decoration: none;
+}
