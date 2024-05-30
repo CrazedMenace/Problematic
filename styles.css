@@ -29,3 +29,27 @@ footer ul li {
 footer a {
     text-decoration: none;
 }
+<style>
+    .social-media img {
+        width: 50px;
+        transition: width 0.3s;
+    }
+
+    @media (max-width: 768px) {
+        .social-media img {
+            width: 80px;
+        }
+    }
+
+    .social-media a {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .social-media i {
+        margin-top: 10px;
+    }
+</style>
